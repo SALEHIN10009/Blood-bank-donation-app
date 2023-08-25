@@ -1,0 +1,47 @@
+name: u_project
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies: 
+  firebase_core: any
+  firebase_database: any
+  flutter_neumorphic: ^3.1.0
+  cupertino_icons: any
+  google_fonts: any
+  fluttertoast: any
+  intl: any
+  introduction_screen: any
+  flutter_datetime_picker: any
+  carousel_slider: any
+  shared_preferences: any
+  cloud_firestore: ^4.8.4
+  firebase_storage: any
+  firebase_auth: any
+  google_sign_in: any
+  uuid: any
+  url_launcher: any
+  geolocator: any
+  flutter_contacts: any
+  get: any
+  flutter: 
+    sdk: flutter
+  lottie: any
+  flutter_screenutil: any
+
+dev_dependencies: 
+  flutter_lints: 2.0.2
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/gifs/
+    - assets/animations/
+    - assets/images/
+    - assets/fonts/
+    - assets/icons/
+
